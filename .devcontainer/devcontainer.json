@@ -1,0 +1,18 @@
+{
+	"name": "template-itu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"foam.foam-vscode",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"adamvoss.vscode-languagetool",
+				"Codeium.codeium"
+			]
+		}
+	}
+}
